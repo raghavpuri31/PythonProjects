@@ -10,10 +10,10 @@ import requests
 
 csv_file = open("CGPA_Provided_by_Selva.csv","w")
 # This is example Reg. No. College code is fake :P
-reg_start = 123417103001 # Enter starting Reg. number
-reg_end = 123417103027 # Ending Reg. number
+reg_start = 00151202815 # Enter starting Reg. number
+reg_end = 03051202815 # Ending Reg. number
 # Found the Database URL after a long time. :) 
-url = "http://aucoe.annauniv.edu/cgi-bin/result/cgrade.pl?regno="
+url = "http://ggsipu.ac.in/ExamResults/2017/290717/4thSem/028_ECE_4_SEM.pdf"
 
 def write_csv(list1):
     # Function to write in CSV
